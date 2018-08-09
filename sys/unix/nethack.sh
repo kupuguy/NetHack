@@ -1,4 +1,4 @@
-#!/bin/sh
+#!sh
 # NetHack 3.6  nethack.sh	$NHDT-Date: 1524689450 2018/04/25 20:50:50 $  $NHDT-Branch: NetHack-3.6.0 $:$NHDT-Revision: 1.19 $
 # Copyright (c) 2015 by Kenneth Lorber, Kensington, Maryland
 # NetHack may be freely redistributed.  See license for details.

@@ -82,7 +82,7 @@ B. Specify the prefix for variable substitution:
 		~/nethack/GITADDDIR/DOTGIT/PRE
 	Put this in it (if your OS is not Unix-like you may need to change
 	the first line):
-		#!/bin/sh
+		#!sh
 		git config nethack.substprefix MINE
 	Now make it executable:
 		chmod +x ~/nethack/GITADDDIR/DOTGIT/PRE

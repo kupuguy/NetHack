@@ -1,4 +1,4 @@
-#!/bin/sh
+#!sh
 # NetHack 3.6  setup.sh	$NHDT-Date: 1432512789 2015/05/25 00:13:09 $  $NHDT-Branch: master $:$NHDT-Revision: 1.14 $
 # Copyright (c) Kenneth Lorber, Kensington, Maryland, 2007.
 # NetHack may be freely redistributed.  See license for details.
@@ -31,8 +31,8 @@ if [ ! -f "$hints" ]; then
     exit 1
 fi
 
-/bin/sh ./mkmkfile.sh Makefile.top TOP ../../Makefile $hints $hfile
-/bin/sh ./mkmkfile.sh Makefile.dat DAT ../../dat/Makefile $hints $hfile
-/bin/sh ./mkmkfile.sh Makefile.doc DOC ../../doc/Makefile $hints $hfile
-/bin/sh ./mkmkfile.sh Makefile.src SRC ../../src/Makefile $hints $hfile
-/bin/sh ./mkmkfile.sh Makefile.utl UTL ../../util/Makefile $hints $hfile
+sh ./mkmkfile.sh Makefile.top TOP ../../Makefile $hints $hfile
+sh ./mkmkfile.sh Makefile.dat DAT ../../dat/Makefile $hints $hfile
+sh ./mkmkfile.sh Makefile.doc DOC ../../doc/Makefile $hints $hfile
+sh ./mkmkfile.sh Makefile.src SRC ../../src/Makefile $hints $hfile
+sh ./mkmkfile.sh Makefile.utl UTL ../../util/Makefile $hints $hfile

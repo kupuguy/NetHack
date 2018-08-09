@@ -281,7 +281,7 @@ dosh()
         if ((str = getenv("SHELL")) != (char *) 0)
             (void) execl(str, str, (char *) 0);
         else
-            (void) execl("/bin/sh", "sh", (char *) 0);
+            (void) execl("sh", "sh", (char *) 0);
         raw_print("sh: cannot execute.");
         exit(EXIT_FAILURE);
     }
