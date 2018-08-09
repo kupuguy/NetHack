@@ -34,7 +34,7 @@ SYSTEM = Sysunix
 # For Systos users compiling on the ST, you'll either need a bourne shell
 # clone or you'll need to do make depend, etc. by hand. In either case,
 # the line below probably needs changing
-SHELL=/bin/sh
+SHELL=sh
 # for Atari
 # SHELL=E:/GEMINI2/MUPFEL.TTP
 

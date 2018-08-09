@@ -60,7 +60,7 @@ VARDAT = $(VARDATD) $(VARDATND)
 
 # Some versions of make use the SHELL environment variable as the shell
 # for running commands.  We need this to be a Bourne shell.
-# SHELL = /bin/sh
+# SHELL = sh
 # for Atari
 # SHELL=E:/GEMINI2/MUPFEL.TTP
 

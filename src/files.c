@@ -1210,7 +1210,7 @@ boolean uncomp;
 /*
  * using system() is simpler, but opens up security holes and causes
  * problems on at least Interactive UNIX 3.0.1 (SVR3.2), where any
- * setuid is renounced by /bin/sh, so the files cannot be accessed.
+ * setuid is renounced by sh, so the files cannot be accessed.
  *
  * cf. child() in unixunix.c.
  */
